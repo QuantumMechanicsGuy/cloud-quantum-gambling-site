@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Certified Cloud Quantum Gambling™</title>
+  <style>
+    body {
+      background-color: #001f3f; /* dark blue */
+      color: #f8f8f2;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+      border: 20px solid yellow;
+      box-sizing: border-box;
+      margin: 0;
+    }
+
+    img {
+      width: 150px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #66fcf1;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #45a29e;
+      margin-top: 40px;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.6;
+    }
+
+    .button-container {
+      margin-top: 40px;
+    }
+
+    .player-link {
+      display: inline-block;
+      margin: 15px;
+      padding: 15px 25px;
+      font-size: 1.2em;
+      background-color: #1f2833;
+      color: #66fcf1;
+      border: 2px solid #66fcf1;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .player-link:hover {
+      background-color: #45a29e;
+      color: #0b0c10;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="Screenshot_20250401-194937~2.png" alt="Certified Cloud Quantum Gambling Logo">
+
+  <h1>Certified Cloud Quantum Gambling™</h1>
+
+  <p>
+    Welcome to the official home of <strong>Certified Cloud Quantum Gambling™</strong>. This trademark represents a trusted platform enabling providers of cloud-based quantum services to power truly fair, peer-to-peer gambling using quantum randomness.
+  </p>
+
+  <h2>What is Cloud Quantum Gambling?</h2>
+  <p>
+    Originally, "quantum gambling" referred to a cryptographic protocol in which two players interacted directly via a quantum channel, using quantum mechanics to ensure fairness and unpredictability. <br><br>
+    In contrast, <strong>cloud quantum gambling</strong> repurposes the power of quantum computers in a modern, cloud-based environment. Here, quantum devices act as entropy sources—delivering genuine randomness to a copyrighted application that runs special gambling protocols designed specifically for quantum hardware.
+  </p>
+
+  <h2>Try the Game</h2>
+  <p>
+    Two players connect independently and submit their choices through separate portals. Once both choices are registered, a quantum computer provides random outcomes based on a protocol created just for this system.
+  </p>
+
+  <h2>Private Access</h2>
+  <p>Enter your password to access the player portals:</p>
+  <input type="password" id="access-pass" placeholder="Enter password" style="padding:10px; font-size:1em; border-radius:5px;">
+  <br><br>
+  <button onclick="checkPassword()" style="padding:10px 20px; font-size:1em; background:#45a29e; border:none; border-radius:5px; cursor:pointer;">Submit</button>
+
+  <div class="button-container" id="links" style="display:none;">
+    <a class="player-link" href="https://5a74966e-ebee-4332-a3e7-7929571d24df-00-1ezln84bg37ze.worf.replit.dev/form1" target="_blank">Player 1 Portal</a>
+    <a class="player-link" href="https://5a74966e-ebee-4332-a3e7-7929571d24df-00-1ezln84bg37ze.worf.replit.dev/form2" target="_blank">Player 2 Portal</a>
+  </div>
+
+  <h2>About the Software</h2>
+  <p>
+    The gambling logic is enforced through a copyrighted software app that integrates with IBM's cloud quantum infrastructure. Each round uses quantum circuits to ensure unpredictability, transparency, and fairness, forming a new standard for trust in digital gambling.
+  </p>
+
+  <script>
+    function checkPassword() {
+      const pw = document.getElementById('access-pass').value;
+      if (pw === 'quantum2025') {
+        document.getElementById('links').style.display = 'block';
+      } else {
+        alert('Incorrect password.');
+      }
+    }
+  </script>
+
+</body>
+</html>
